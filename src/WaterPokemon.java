@@ -1,5 +1,14 @@
-public class WaterPokemon {
-    public String getAttacks();
+import java.util.List;
+
+public class WaterPokemon extends Pokemon {
+
+    //constructor
+    public WaterPokemon(String nm, int hp, int lvl, String food, String sound) {
+        super(nm, hp, lvl, food, sound);
+    }
+
+
+    //methods
 
     public void surf(Pokemon pokemon, Pokemon gymPokemon) {
     }

@@ -3,11 +3,11 @@ import java.util.List;
 public abstract class Pokemon {
 
     //instance variabele
-    public String name;
-    public int hp;
-    public int level;
-    public String food;
-    public String sound;
+    private String name;
+    private int hp;
+    private int level;
+    private String food;
+    private String sound;
 
     // constructor
     public Pokemon(String nm, int hp, int lvl, String food, String sound) {
@@ -40,10 +40,31 @@ public abstract class Pokemon {
     public void setSound(String sound) {
         this.sound = sound;
     }
+
+
+    public String getName() {
+        return name;
+    }
+
+    public int getHp() {
+        return hp;
+    }
+
+    public int getLevel() {
+        return level;
+    }
+
+    public String getFood() {
+        return food;
+    }
+
+    public String getSound() {
+        return sound;
+    }
+
     // methods
-    public void attacksAmount() {
+    public List<String> getAttacks() {
+        List<String> attacks;
+        return attacks;
     }
 }
-
-
-
