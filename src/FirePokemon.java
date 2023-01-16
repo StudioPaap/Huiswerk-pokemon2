@@ -25,10 +25,5 @@ public class FirePokemon extends Pokemon {
     public void flameThrower(Pokemon pokemon, Pokemon gymPokemon) {
     }
 
-    @Override
 
-    public List<String> getAttacks( ){
-
-        return attacks;
-    }
 }

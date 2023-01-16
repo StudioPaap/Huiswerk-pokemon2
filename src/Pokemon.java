@@ -63,8 +63,5 @@ public abstract class Pokemon {
     }
 
     // methods
-    public List<String> getAttacks() {
-        List<String> attacks;
-        return attacks;
-    }
+
 }
